@@ -1,0 +1,43 @@
+.education-container {
+    padding-bottom: 1rem;
+  }
+  
+  .education-title {
+    margin: 5rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .education-item {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .education-year {
+    width: 100%;
+    max-width: 200px;
+    text-align: left;
+    color: #a8a29e; /* Equivalent to text-stone-400 */
+    font-size: 0.875rem;
+  }
+  
+  .education-details {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .education-details h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .education-university {
+    font-size: 0.875rem;
+    color: #78716c; /* Equivalent to text-stone-500 */
+  }
+  

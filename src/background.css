@@ -1,0 +1,15 @@
+/* Background.css */
+.dot-container {
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #38bdf8; /* You can change this color */
+  }
+  
