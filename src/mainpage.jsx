@@ -7,7 +7,7 @@ import './background.css';
 
 import {SiReact, SiDocker, SiKubernetes, SiPython, SiCss3, SiHtml5, SiLinux,
   SiMongodb, SiMysql, SiGit, SiJavascript, SiPhp, SiGithub, SiLinkedin, SiGmail,
-   SiKotlin, SiRstudioide, SiJenkins,SiTailwindcss,SiNodedotjs,SiExpress} from 'react-icons/si';
+   SiKotlin, SiRstudioide, SiJenkins,SiTailwindcss,SiNodedotjs,SiExpress , SiSpringboot , SiFirebase} from 'react-icons/si';
 import Projects from './projects';
 import { ABOUT_TEXT, EDUCATION } from './constants';
 
@@ -99,6 +99,8 @@ export default function MainPage() {
           <div className="box"><SiDocker title="Docker" size={50} color="#2496ED" /></div>
           <div className="box"><SiKubernetes title="Kubernetes" size={50} color="#326CE5" /></div>
           <div className='box'><SiJenkins title='Jenkins' size={50} color="#D24939" /></div>
+          <div className='box'><SiSpringboot title='Spring Boot' size={50} color="#6DB33F" /></div>
+          <div className='box'><SiFirebase title='Firebase' size={50} color="#FFCA28" /></div>
           
         </div>  
 
